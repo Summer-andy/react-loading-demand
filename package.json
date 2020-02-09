@@ -1,0 +1,25 @@
+{
+  "name": "react-loading-demand",
+  "version": "1.0.0",
+  "description": "这是用于react-loading项目按需加载的插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixiaodong123/react-loading-demand.git"
+  },
+  "keywords": [
+    "demand"
+  ],
+  "author": "Andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sixiaodong123/react-loading-demand/issues"
+  },
+  "homepage": "https://github.com/sixiaodong123/react-loading-demand#readme",
+  "dependencies": {
+    "@babel/types": "^7.8.3"
+  }
+}
