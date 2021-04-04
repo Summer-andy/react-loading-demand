@@ -53,6 +53,22 @@ module: {
 },
 ```
 
+or 
+
+```diff
+module: {
+  rules: [{
+    test: /\.js$/,
+    loader: "babel-loader",
++   options: {
++     plugins: [
++       [require('react-loading-demand'), { "library": "react-loadingg" }],
++     ]
++   }
+  }]
+},
+```
+
 ### 🛎 how to Change(如何转化)
 ```js
 import { CommonLoading } from "react-loadingg";
